@@ -3,6 +3,7 @@ from typing import List
 
 
 def in_order(numbers: List[int]) -> bool:
+    print('hello')
     return all(numbers[i] <= numbers[i+1] for i in range(len(numbers)-1))
     # for i in range(len(numbers)-1):
     #     if numbers[i] > numbers[i+1]:
