@@ -31,9 +31,10 @@ def bogo_sort(numbers: List[int]) -> List[int]:
     # whileの条件式がtrueになるまでシャッフルし続ける
     while not in_order(numbers):
         random.shuffle(numbers)
-        print(numbers)
     return numbers
 
 if __name__ == '__main__':
-    print(bogo_sort([3,5,4,2,9,6,7,4,2]))
+    nums = [random.randint(0, 1000) for _ in range(10)]
+    print(nums)
+    print(bogo_sort(nums))
 
