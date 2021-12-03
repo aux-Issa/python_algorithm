@@ -1,6 +1,6 @@
 from typing import List
 
-
+# 12/3 Icouldn't asolve
 def bubble_sort(numbers: List[int]) -> List[int]:
     len_numbers = len(numbers)
     for i in range(len_numbers):
