@@ -1,6 +1,7 @@
 from typing import List
+import random
 
-# 12/3 I couldn't solve
+# 12/3 I  couldn't solve
 def bubble_sort(numbers: List[int]) -> List[int]:
     len_numbers = len(numbers)
     for i in range(len_numbers):
@@ -12,6 +13,5 @@ def bubble_sort(numbers: List[int]) -> List[int]:
 
 
 if __name__ == '__main__':
-    import random
     nums = [random.randint(0, 1000) for i in range(10)]
     print(bubble_sort(nums))
