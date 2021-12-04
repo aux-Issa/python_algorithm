@@ -41,5 +41,10 @@ def cocktail_sort(numbers: List) -> List[int]:
                 swapped = True
 
         start = start + 1
-        
+
     return numbers
+
+if __name__ = "__main__":
+    import random
+    nums = [random.randint(0, 1000) for i in range(10)]
+    print(cocktail_sort(nums))
