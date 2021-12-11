@@ -42,3 +42,8 @@ def comb_sort(numbers: List[int]):
                 numbers[i], numbers[i + gap] = numbers[i + gap], numbers[i]
                 swapped = True
     return numbers
+
+if __name__ == '__main__':
+    import random
+    nums = [random.randint(0, 1000) for i in range(10)]
+    print(comb_sort(nums))
