@@ -44,7 +44,8 @@ def cocktail_sort(numbers: List) -> List[int]:
 
     return numbers
 
-if __name__ = "__main__":
+if __name__ == '__main__':
     import random
     nums = [random.randint(0, 1000) for i in range(10)]
+    print(nums)
     print(cocktail_sort(nums))
