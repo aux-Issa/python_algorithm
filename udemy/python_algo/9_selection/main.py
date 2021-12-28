@@ -14,5 +14,6 @@ if __name__ == '__main__':
     import random
     numbers = [random.randint(0, 1000) for i in range(10)]
     print(numbers)
-    print(selection_sort(numbers))
+    result = selection_sort(numbers)
+    print(result)
 
