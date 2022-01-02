@@ -55,7 +55,6 @@ def bucket_sort(numbers: List[int]) -> List[int]:
             # 割り切れる場合はbucketの一番最後に追加する
             buckets[size-1].append(num)
     for i in range(size):
-        print(buckets[i])
         insertion_sort(buckets[i])
     result = []
     for i in range(size):
