@@ -27,6 +27,7 @@ def shell_sort(numbers: List[int]) -> List[int]:
                 numbers[j] = numbers[j-gap]
                 j -= gap
             numbers[j] = temp
+            # gapを2で割ったものをgapに再代入している
         gap //= 2
 
     return numbers
