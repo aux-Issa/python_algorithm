@@ -20,7 +20,7 @@
 #         i -= 1
 #
 #     return result
-from typing import  List
+from typing import List
 
 def counting_sort(numbers: List[int]) -> List[int]:
     max_num = max(numbers)
